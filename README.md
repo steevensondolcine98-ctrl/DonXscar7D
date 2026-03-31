@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <Xscar7D>Store Me</Don>
+  <Xscar7D>Store Don</Don>
 
   <style>
     body {
@@ -60,7 +60,7 @@
 
 <div class="product">
   <img src="https://via.placeholder.com/150">
-  <h2>Telefòn Samsung</h2>
+  <h2>roud bape</h2>
   <p>Prix: $120</p>
   <button onclick="achte(120)">Achte</button>
 </div>
