@@ -80,3 +80,26 @@ function achte(prix) {
 
 </body>
 </html>
+<script>
+function achte(produit, prix) {
+  let numero = "50933992584"; // mete nimewo WhatsApp ou
+  let message = "Bonjou, kliyan kòman map ka edew: " + produit + " pou $" + prix;
+  
+  let url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(message);
+  
+  window.open(url, "_blank");
+}
+</script>
+.product {
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+button {
+  background: linear-gradient(45deg, green, lime);
+}
+<h2>hair Nike</h2>
+<p>Prix: $50</p>
